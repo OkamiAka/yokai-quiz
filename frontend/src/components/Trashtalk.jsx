@@ -6,7 +6,7 @@ function Trashtalk({ talkMalus }) {
   const random = Math.floor(Math.random() * trashtalkData.length);
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_BACKEND_URL}/trashtalk`)
+    fetch(`localhost:5000/trashtalk`)
       .then((resp) => resp.json())
       .then((data) => {
         setTrashtalkData(data);
