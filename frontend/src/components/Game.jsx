@@ -9,7 +9,7 @@ function Game({ musicHandle }) {
   const [templeChoice, setTempleChoice] = useState(2);
 
   useEffect(() => {
-    fetch(`localhost:5000/temples`)
+    fetch(`${import.meta.env.VITE_BACKEND_URL}/temples`)
       .then((resp) => resp.json())
       .then((data) => {
         setTempleData(data);
