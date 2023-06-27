@@ -25,7 +25,7 @@ function App() {
       </Routes>
       {music === "true" && (
         <audio controls autoPlay>
-          <source src="src/assets/backgroundSong.mp3" type="audio/mpeg" />
+          <source src="https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/frontend/src/assets/backgroundSong.mp3" />
           <track
             src="backgroundSong"
             kind="captions"
