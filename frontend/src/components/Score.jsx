@@ -16,7 +16,7 @@ function Score({ musicHandle }) {
       yokaiName: "Hahakigami",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Hahakigami.png",
+      yokaiImage: "../assets/Hahakigami.png",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ function Score({ musicHandle }) {
       yokaiName: "Chōchin obake",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Lantern Soul.png",
+      yokaiImage: "../assets/Lantern Soul.png",
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ function Score({ musicHandle }) {
       yokaiName: "Hitotsume kozō",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Hitotsume.png",
+      yokaiImage: "../assets/Hitotsume.png",
     },
     {
       id: 4,
@@ -58,7 +58,7 @@ function Score({ musicHandle }) {
       yokaiName: "Karakasa kozō",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/kasa-obake.png",
+      yokaiImage: "../assets/kasa-obake.png",
     },
     {
       id: 5,
@@ -72,7 +72,7 @@ function Score({ musicHandle }) {
       yokaiName: "Kappa",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/kappa.png",
+      yokaiImage: "../assets/kappa.png",
     },
     {
       id: 6,
@@ -86,7 +86,7 @@ function Score({ musicHandle }) {
       yokaiName: "Kudagitsune",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Kanko.png",
+      yokaiImage: "../assets/Kanko.png",
     },
     {
       id: 7,
@@ -100,7 +100,7 @@ function Score({ musicHandle }) {
       yokaiName: "Oni",
       level: "hard",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/oni.png",
+      yokaiImage: "../assets/oni.png",
     },
   ]);
 
