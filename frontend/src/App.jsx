@@ -25,7 +25,7 @@ function App() {
       </Routes>
       {music === "true" && (
         <audio controls autoPlay>
-          <source src="src/assets/backgroundSong.mp3" />
+          <source src="src/assets/backgroundSong.mp3" type="audio/mpeg" />
           <track
             src="backgroundSong"
             kind="captions"
