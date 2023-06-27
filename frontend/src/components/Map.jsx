@@ -74,12 +74,7 @@ function Map({ temples, setSwitchToTemple, templeChoice, musicHandle }) {
                 <h3>Temple {temple.templeName}</h3>
                 <p>Level: {temple.level}</p>
                 <p>
-                  <img
-                    src={`${import.meta.env.VITE_BACKEND_URL}${
-                      temple.yokaiImage
-                    }`}
-                    alt={temple.yokaiName}
-                  />
+                  <img src={`${temple.yokaiImage}`} alt={temple.yokaiName} />
                   {` ${temple.yokaiName}`}
                 </p>
                 <button type="button" onClick={() => click(temple.id)}>

@@ -18,7 +18,7 @@ function Game({ musicHandle }) {
       yokaiName: "Hahakigami",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Hahakigami.png",
+      yokaiImage: "src/assets/Hahakigami.png",
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ function Game({ musicHandle }) {
       yokaiName: "Chōchin obake",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Lantern Soul.png",
+      yokaiImage: "src/assets/Lantern Soul.png",
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ function Game({ musicHandle }) {
       yokaiName: "Hitotsume kozō",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Hitotsume.png",
+      yokaiImage: "src/assets/Hitotsume.png",
     },
     {
       id: 4,
@@ -60,7 +60,7 @@ function Game({ musicHandle }) {
       yokaiName: "Karakasa kozō",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/kasa-obake.png",
+      yokaiImage: "src/assets/kasa-obake.png",
     },
     {
       id: 5,
@@ -74,7 +74,7 @@ function Game({ musicHandle }) {
       yokaiName: "Kappa",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/kappa.png",
+      yokaiImage: "src/assets/kappa.png",
     },
     {
       id: 6,
@@ -88,7 +88,7 @@ function Game({ musicHandle }) {
       yokaiName: "Kudagitsune",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/Kanko.png",
+      yokaiImage: "src/assets/Kanko.png",
     },
     {
       id: 7,
@@ -102,7 +102,7 @@ function Game({ musicHandle }) {
       yokaiName: "Oni",
       level: "hard",
       yokaiLife: 5,
-      yokaiImage: "/assets/images/oni.png",
+      yokaiImage: "src/assets/oni.png",
     },
   ]);
   const [templeChoice, setTempleChoice] = useState(2);

@@ -16,7 +16,7 @@ function Score({ musicHandle }) {
       yokaiName: "Hahakigami",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "../assets/Hahakigami.png",
+      yokaiImage: "src/assets/Hahakigami.png",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ function Score({ musicHandle }) {
       yokaiName: "Chōchin obake",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "../assets/Lantern Soul.png",
+      yokaiImage: "src/assets/Lantern Soul.png",
     },
     {
       id: 3,
@@ -44,7 +44,7 @@ function Score({ musicHandle }) {
       yokaiName: "Hitotsume kozō",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "../assets/Hitotsume.png",
+      yokaiImage: "src/assets/Hitotsume.png",
     },
     {
       id: 4,
@@ -58,7 +58,7 @@ function Score({ musicHandle }) {
       yokaiName: "Karakasa kozō",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "../assets/kasa-obake.png",
+      yokaiImage: "src/assets/kasa-obake.png",
     },
     {
       id: 5,
@@ -72,7 +72,7 @@ function Score({ musicHandle }) {
       yokaiName: "Kappa",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "../assets/kappa.png",
+      yokaiImage: "src/assets/kappa.png",
     },
     {
       id: 6,
@@ -86,7 +86,7 @@ function Score({ musicHandle }) {
       yokaiName: "Kudagitsune",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "../assets/Kanko.png",
+      yokaiImage: "src/assets/Kanko.png",
     },
     {
       id: 7,
@@ -100,7 +100,7 @@ function Score({ musicHandle }) {
       yokaiName: "Oni",
       level: "hard",
       yokaiLife: 5,
-      yokaiImage: "../assets/oni.png",
+      yokaiImage: "src/assets/oni.png",
     },
   ]);
 
@@ -162,10 +162,7 @@ function Score({ musicHandle }) {
         {templeData.map((temple) => (
           <figure key={temple.id}>
             <h4>{temple.templeName}</h4>
-            <img
-              src={`${import.meta.env.VITE_BACKEND_URL}${temple.yokaiImage}`}
-              alt={temple.yokaiName}
-            />
+            <img src={`${temple.yokaiImage}`} alt={temple.yokaiName} />
             <figcaption>{temple.yokaiName}</figcaption>
             <p>Difficulty: {temple.level}</p>
 

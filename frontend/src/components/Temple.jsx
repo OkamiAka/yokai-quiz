@@ -104,14 +104,7 @@ function Temple({ temple, setSwitchToTemple, musicHandle }) {
       <div className="yokai">
         <h1>{temple.yokaiName}</h1>
         {switchToQuizz === true && <Trashtalk talkMalus={talkMalus} />}
-        <img
-          src={
-            temple.yokaiImage
-              ? `${import.meta.env.VITE_BACKEND_URL}${temple.yokaiImage}`
-              : temple.yokaiImage
-          }
-          alt={temple.yokaiName}
-        />
+        <img src={temple.yokaiImage} alt={temple.yokaiName} />
         <div className="health-icons">
           {Array.from({ length: yokaiLife }, (_, index) => (
             <svg
