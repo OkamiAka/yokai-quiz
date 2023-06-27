@@ -18,7 +18,8 @@ function Game({ musicHandle }) {
       yokaiName: "Hahakigami",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "src/assets/Hahakigami.png",
+      yokaiImage:
+        "https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/backend/public/assets/images/Hahakigami.png",
     },
     {
       id: 2,
@@ -32,7 +33,8 @@ function Game({ musicHandle }) {
       yokaiName: "Chōchin obake",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "src/assets/Lantern Soul.png",
+      yokaiImage:
+        "https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/backend/public/assets/images/Lantern Soul.png",
     },
     {
       id: 3,
@@ -46,7 +48,8 @@ function Game({ musicHandle }) {
       yokaiName: "Hitotsume kozō",
       level: "easy",
       yokaiLife: 5,
-      yokaiImage: "src/assets/Hitotsume.png",
+      yokaiImage:
+        "https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/backend/public/assets/images/Hitotsume.png",
     },
     {
       id: 4,
@@ -60,7 +63,8 @@ function Game({ musicHandle }) {
       yokaiName: "Karakasa kozō",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "src/assets/kasa-obake.png",
+      yokaiImage:
+        "https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/backend/public/assets/images/kasa-obake.png",
     },
     {
       id: 5,
@@ -74,7 +78,8 @@ function Game({ musicHandle }) {
       yokaiName: "Kappa",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "src/assets/kappa.png",
+      yokaiImage:
+        "https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/backend/public/assets/images/kappa.png",
     },
     {
       id: 6,
@@ -88,7 +93,8 @@ function Game({ musicHandle }) {
       yokaiName: "Kudagitsune",
       level: "medium",
       yokaiLife: 5,
-      yokaiImage: "src/assets/Kanko.png",
+      yokaiImage:
+        "https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/backend/public/assets/images/Kanko.png",
     },
     {
       id: 7,
@@ -102,7 +108,8 @@ function Game({ musicHandle }) {
       yokaiName: "Oni",
       level: "hard",
       yokaiLife: 5,
-      yokaiImage: "src/assets/oni.png",
+      yokaiImage:
+        "https://raw.githubusercontent.com/OkamiAka/yokai-quiz/main/backend/public/assets/images/oni.png",
     },
   ]);
   const [templeChoice, setTempleChoice] = useState(2);
