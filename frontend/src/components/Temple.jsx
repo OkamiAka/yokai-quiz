@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 import HistoryOfTheTemple from "./HistoryOfTheTemple";
 import Quizz from "./Quizz";
@@ -15,6 +16,7 @@ function Temple({ temple, setSwitchToTemple, musicHandle }) {
   const [talkMalus, setTalkMalus] = useState("");
   const amount = 5 + 5;
   const difficulty = temple.level;
+  const nav = useNavigate();
 
   useEffect(() => {
     fetch(
@@ -34,7 +36,7 @@ function Temple({ temple, setSwitchToTemple, musicHandle }) {
   useEffect(() => {
     if (playerLife <= 0) {
       localStorage.setItem("gameover", "gameover");
-      document.location.href = "/score";
+      nav("/score");
     }
     if (yokaiLife <= 0) {
       const templeValidationScore =
